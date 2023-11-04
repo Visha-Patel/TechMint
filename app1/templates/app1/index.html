@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <form action="" method="post">
+        {% csrf_token %}
+       
+    <button type="submit" value=""><a href="{% url 'alluser' %}">All user pay</a></button><br><br>
+    <button type="submit" value=""><a href="{% url 'Flip' %}">Flipcard pay</a></button><br><br>
+    <button type="submit" value=""><a href="{% url 'Tour' %}">Tour pay</a></button>
+    <button type="submit" value=""><a href="{% url 'dis' %}">Display balance</a></button>
+</form>
+</body>
+</html>

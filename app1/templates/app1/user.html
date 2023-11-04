@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <form action="{% url 'deposite' %}" method="post">
+        {% csrf_token %}
+    <table>
+        <tr>
+            <td>Home</td>
+            <td>Amount pay</td>
+            <td>all user pay</td>
+            <td>Pay on Flipcard </td>
+            <td>Pay on Tour </td>
+        </tr>
+        <tr></tr>
+    </table>
+    <input type="text" placeholder="Enter amount", name="am">
+    <button type="submit" value="">Split amount in all users account</button>
+</form>
+</body>
+</html>
