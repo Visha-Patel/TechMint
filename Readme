@@ -1,1 +1,8 @@
-
+as per the project requirements i havent created a virtual env in this kindly download the required packages according to the requirements.txt
+for download the files follow below steps:--
+Step 1:-pipenv shell
+Step 2:- pip install
+Step 3:- pip install -r requirements.txt
+Step 4:-python manage.py makemigrations
+Step 5:- python manage.py migrate
+Step 6:-python manage.py runserver
